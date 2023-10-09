@@ -6,7 +6,7 @@
 //ako nemamo defer u script.js window.addEventListener("load")
 
 
-(function() { //samopozivajuća funkcija - bilo što izvan toga se neće kositi s logikom unutar ove funkcije, tu pišem svoj neki modul
+(function() { //samopozivajuća funkcija - bilo što izvan toga se neće kositi s logikom unutar ove funkcije, tu pišem svoj neki mo
   function ToDo () {
     //var todo = document.querySelector("#todo") ako u div-u označimo id, za bolji performance
     var input = document.querySelector("#todoInput"),
