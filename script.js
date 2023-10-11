@@ -8,7 +8,7 @@
 
 (function() { //samopozivajuća funkcija - bilo što izvan toga se neće kositi s logikom unutar ove funkcije, tu pišem svoj neki m
   function ToDo () {
-    //var todo = document.querySelector("#todo") ako u div-u označimo id, za bolji performance
+    //var todo = document.querySelector("#todo") ako u div-u označimo id, za bolji performanceggggg
     var input = document.querySelector("#todoInput"),
         button = document.querySelector("#todoButton"),
         list = document.querySelector("#todoList");
